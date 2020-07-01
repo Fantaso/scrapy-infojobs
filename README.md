@@ -36,12 +36,15 @@ infojobs.net (platform for spain) and use the data for analysis.
 ---
 ## Usage
 
+
+---
 #### 0. Before it can be used some configuration is required as we are using Selenium with Firefox
 - Install firefox and the webdriver and add the path of your firefox into the spider where the selenium is configured
 - Once Firefox is installed. create a profile for firefox. (in linux you can run `firefox -p`) or in your browser url write `about:profiles`
 - Once profile is created. get the path and added to the the selenium configuration in the spider also.
 
 
+---
 #### 1. Clone and Run it
 
 image is hosted in docker hub registry freely available [fantaso/scrapy_tradefest](https://hub.docker.com/repository/docker/fantaso/scrapy_tradefest)
